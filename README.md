@@ -18,7 +18,7 @@ Still using commonjs? Switch to ESM also! Or use the async [import()] syntax.
 # Example
 
 ```js
-import toUint8 from 'anything-to-uint8array'
+import toUint8 from 'to-uint8array'
 
 const buffer = Buffer.from('abc')
 const u8 = new Uint8Array([97])
