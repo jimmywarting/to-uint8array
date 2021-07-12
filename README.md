@@ -31,6 +31,7 @@ toUint8('abc') // Uint8Array(3) [ 97, 98, 99 ]
 toUint8(buffer) // Uint8Array(3) [ 97, 98, 99 ]
 
 toUint8(u8) === u8 // true
+toUint8(u16) === u16 // false
 toUint8(ab).buffer === ab // true
 toUint8(u16).buffer === u16.buffer // true
 toUint8(buffer) instanceof Uint8Array // true
