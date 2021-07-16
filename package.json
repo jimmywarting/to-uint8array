@@ -1,6 +1,6 @@
 {
   "name": "to-uint8array",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Convert anything to Uint8Array without a copy",
   "main": "mod.js",
   "type": "module",
